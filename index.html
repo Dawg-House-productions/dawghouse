@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dawg House Productions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Anton', sans-serif;
+      font-size: 2.5em;
+      color: #ff4500;
+    }
+    nav a {
+      color: #f2f2f2;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Dawg+House') center/cover no-repeat;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .section {
+      padding: 50px 20px;
+    }
+    .projects, .team, .blog, .shop {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background-color: #222;
+      border: 1px solid #333;
+      padding: 20px;
+      flex: 1 1 300px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .cta-button {
+      background-color: #ff4500;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    iframe {
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dawg House</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#team">Team</a>
+      <a href="#blog">Blog</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Dawg House Productions</h2>
+    <p>Where Vision Meets Grit</p>
+    <button class="cta-button">Explore Our Work</button>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Dawg House Productions is a creative collective of filmmakers, gamers, rebels, and storytellers. We create raw, real, and unforgettable content.</p>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Short Film: Ghost in the Frame</h3>
+        <p>A gripping tale of identity and vengeance.</p>
+      </div>
+      <div class="card">
+        <h3>Music Video: Warcry</h3>
+        <p>Visuals that hit as hard as the beat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <h2>The Dawg Pack</h2>
+    <div class="team">
+      <div class="card">
+        <h3>Scott "Psych" Armstrong</h3>
+        <p>Founder | Creative Director</p>
+      </div>
+      <div class="card">
+        <h3>Lena Nyx</h3>
+        <p>Visual Artist | Editor</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="blog">
+    <h2>Blog</h2>
+    <div class="blog">
+      <div class="card">
+        <h3>Creating a Movement</h3>
+        <p>The story behind Dawg House and what drives our mission.</p>
+      </div>
+      <div class="card">
+        <h3>Behind the Scenes</h3>
+        <p>Go inside the chaos and creativity of our latest shoots.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="shop">
+    <h2>Shop</h2>
+    <div class="shop">
+      <div class="card">
+        <h3>Dawg Tee</h3>
+        <p>Black tee with Dawg House logo – $25</p>
+      </div>
+      <div class="card">
+        <h3>Sticker Pack</h3>
+        <p>5 unique vinyl designs – $10</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact & Social</h2>
+    <p>Email: contact@dawghouseproductions.com</p>
+    <p>Join our Discord:</p>
+    <iframe src="https://discord.com/widget?id=000000000000000000&theme=dark" width="350" height="500" allowtransparency="true"></iframe>
+    <p>Follow our content:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yourchannelvideo" title="YouTube video player"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dawg House Productions. Built Different. Barks Loud. Bites Hard.</p>
+  </footer>
+</body>
+</html>
